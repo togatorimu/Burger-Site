@@ -6,91 +6,106 @@
     --white: white;
     --grey: #4f5047;
     --dark_accent: #e7272d;
+    --dark_grey: #282623;
  }
-.menu{
-    position: relative;
+ @font-face {
+    font-family: PermanentMarker; 
+    src: url(fonts/PermanentMarker-Regular.ttf); 
 }
-.menu_img{
-    height: 100%;
-    width: 100%;
-    margin-top: -70px;
+@font-face {
+    font-family: Lato; 
+    src: url(fonts/Lato-Regular.ttf); 
+}
+@font-face {
+    font-family: Rubik; 
+    src: url(fonts/Rubik-VariableFont_wght.ttf); 
+}
+.header{
+    margin: 0 auto;
+    display: flex;
 }
 .top_line{
-    position: absolute;
-    height: 51px;
-    width: 100%;
     background-color: var(--dark_orange);
-}
-.nav{
-    display: flex;
-    list-style-type: none;
+    width: 100%;
+    height: 51px;
+    justify-content: space-between;
     align-items: center;
+}
+.top_nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
     margin: 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
-.nav_item{
-   margin-left: 300px;
-   color: var(--white);
-   font-weight: bold;
+.top_nav_item{
+    margin-left: 333px;
+    margin-top: 17px;
+    color: var(--white);
+    font-size: 15px;
+    font-family: 'Lato', sans serif;
+    font-weight: 900;
 }
-.logo_img{
-    display: block;
-    position: absolute;
+.logo{
+    width: 225px;
     height: 42px;
-    width: 235px;
-    top: 80px;
-    left: 330px;
 }
-.menu_list{
-    position: absolute;
+.navigation_block{
+    position: relative;
     display: flex;
-    list-style-type: none;
+    margin: 0;
+    padding-left: 330px;
+    padding-right: 750px;
+    height: 102px;
+    justify-content: space-between;
     align-items: center;
-    top: 80px;
-    left: 700px;
+    background-color: var(--default);
 }
-.menu_item{
-    text-decoration: none;
-    padding-left: 40px;
-    font-weight: 500;
-    font-size: 18px;
-    color: var(--grey);
+.list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
-.main_header{
-    position: absolute;
-    top: 300px;
-    left: 333px;
+.list_item{
+    margin-left: 35px;
 }
-.main_header_name{
-    font-size: 19px;
-    font-family: comic sans ms;
-    color: var(--dark_accent);
-    font-weight: 700;
-}
-.main_header_text{
-    font-size: 70px;
-    color: var(--white);
-    font-weight: 800;
-    line-height: 0.9;
-}
-.main_header_description{
-    padding-top: 25px;
-    font-size: 20px;
-    color: var(--white);
-    font-weight: 550;
-    line-height: 1.5;
-    color: var(--grey);
-}
-.header_btn{
-    position: absolute;
-    top: 720px;
-    left: 333px;
-    padding: 17px 27px 17px 27px;
-    border-radius: 30px;
-    border: none;
-    background-color: var(--dark_accent);
-    color: var(--white);
-    font-size: 18px;
+.list_text{
+    text-decoration: none; 
+    font-family: 'Lato', sans serif;
+    font-size: 17px; 
     font-weight: 600;
+    color: var(--grey);
+    transition: .2s ease color;
+}
+.list_text:hover{
+    color: var(--dark_accent);
+}
+.main{
+    position: relative;
+    background: url(/BurgerTruck/cover1.jpg) no-repeat;
+    background-size: 100% auto;
+    padding-left: 330px;
+    padding-top: 150px;
+}
+.name{  
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.text{
+    font-family: 'Rubik', sans serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--white);
+}
+.description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--grey);
 }

@@ -8,40 +8,46 @@
     <link rel="shortcut icon" href="/Burger Truck/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="index_style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </head>
 <body>
-    <header>
-        <div class="menu">
+    <header class="header">
             <div class="top_line">
-                <ul class="nav">
-                    <li class="nav_item">Los Angeles Gournadi, 1230 Bariasl</li>
-                    <li class="nav_item">freddy.burgers@email.com</li>
-                    <li class="nav_item">Hours: 9:00 AM - 5:00 PM</li>
+                <ul class="top_nav">
+                    <li class="top_nav_item wow animate__animated animate__bounceIn">Los Angeles Gournadi, 1230 Bariasl</li>
+                    <li data-wow-delay="0.2s" class="top_nav_item wow animate__animated animate__bounceIn">freddy.burgers@email.com</li>
+                    <li data-wow-delay="0.4s" class="top_nav_item wow animate__animated animate__bounceIn">Hours: 9:00 AM - 5:00 PM</li>
                 </ul>
-            </div>
-            <img src="/Burger Truck/cover.jpg" class="menu_img">
-            <img src="/Burger Truck/Logo1.svg" class="logo_img">
-            <div>
-                <ul class="menu_list">
-                    <li class="menu_item">About us</li>
-                    <li class="menu_item">Menu</li>
-                    <li class="menu_item">Catering</li>
-                    <li class="menu_item">Contacts</li>
-                    <li class="menu_item_img"><img src=""></li>
-                    <li class="menu_item_img"><img src=""></li>
-                    <li class="menu_item_img"><img src=""></li>
-                </ul>
-            </div>
-            <div class="main_header">
-                <p><span class="main_header_name">FREDDY BURGERS</span></p>
-                <span class="main_header_text">YOU HAVE A <br>PARTY — WE HAVE<br> TASTY BURGERS!</span>
-                <p class="main_header_description">Look out for our food truck on the streets of Los Angeles, order delivery or<br> catering, and enjoy the taste of juicy burgers!</p>
-            </div>
-            <button class="header_btn">Order Now</button>
-        </div>
+            </div>      
     </header>
-    <footer>
-
-    </footer>
+    <div class="navigation_block">
+        <a href="#"><img src="/BurgerTruck/Logo1.svg" alt="Logo" class="logo"></a>
+        <ul class="list">
+            <li class="list_item"><a href="#" class="list_text wow animate__animated animate__bounceIn">About us</a></li>
+            <li class="list_item"><a data-wow-delay="0.2s" href="#" class="list_text wow animate__animated animate__bounceIn">Menu</a></li>
+            <li class="list_item"><a data-wow-delay="0.4s" href="#" class="list_text wow animate__animated animate__bounceIn">Catering</a></li>
+            <li class="list_item"><a data-wow-delay="0.6s" href="#" class="list_text wow animate__animated animate__bounceIn">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="main">
+             <p class="name wow animate__animated animate__fadeInUp">Freddy Burgers</p>
+             <h1 class="text">
+                 <span data-wow-delay="0.2s" class="wow animate__animated animate__fadeInUp" style="display: block; text-align: left;">YOU HAVE A</span>
+                 <span data-wow-delay="0.3s" class="wow animate__animated animate__fadeInUp" style="display: block; text-align: left;">PARTY — WE HAVE</span>
+                 <span data-wow-delay="0.4s" class="wow animate__animated animate__fadeInUp" style="display: block; text-align: left;"> TASTY BURGERS!</span> 
+                </h1>
+                <p class="description">
+                    <span data-wow-delay="0.5s" class="wow animate__animated animate__fadeInUp" style="display: block; text-align: left;">Look out for our food truck on the streets of Los Angeles, order delivery or</span>
+                    <span data-wow-delay="0.6s" class="wow animate__animated animate__fadeInUp" style="display: block; text-align: left;"> catering, and enjoy the taste of juicy burgers!</span>
+                </p>
+    </div>
+    <footer></footer>
 </body>
 </html>
