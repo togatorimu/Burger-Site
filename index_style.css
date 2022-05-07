@@ -89,6 +89,7 @@
     background-size: 100% auto;
     padding-left: 330px;
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 .name{  
     font-family: 'PermanentMarker';
@@ -109,3 +110,145 @@
     font-weight: 600;
     color: var(--grey);
 }
+.main_bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.main_btn{
+    border-radius: 25px;
+    border: 0;
+    background-color: var(--dark_accent);
+    font-size: 16.5px;
+    font-family: 'Lato', sans serif;
+    color: var(--white);
+    height: 51px;
+    width: 139px;
+    font-weight: 600;
+    transition: .4s ease background-color;
+}
+.main_btn:hover{
+    background-color: var(--dark_grey);
+}
+.main_phone_icon{
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+.main_phone_text{
+    padding-left: 18px;
+    font-size: 16.5px;
+    font-weight: 600;
+    font-family: 'Lato', sans serif;
+    color: var(--white);
+}
+.main_phone_number{
+    padding-left: 18px;
+       
+}
+.main_phone_number_href{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Lato', sans serif;
+    color: var(--black);
+    text-decoration: none;
+}
+.first_divider_img{
+    width: 100%;
+}
+.small_about_us{
+    position: relative;
+    background: url(/BurgerTruck/bg-22.jpg) no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.small_about_us_burger_img{
+    height: 588px;
+    width: 570px;
+}
+.small_about_us_burger{
+    padding-top: 130px;
+    margin-left: 370px;
+}
+.small_about_us_text{
+    padding-top: 145px;
+}
+.small_about_us_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.small_about_us_main_text{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: var(--black);
+}
+.small_about_us_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--grey);
+    padding-bottom: 15px;
+}
+.small_about_us_second_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-bottom: 10px;
+}
+.small_about_us_third_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.small_about_us_btn{
+    width: 168px;
+    height: 51px;
+    background-color: var(--dark_accent);
+    transition: .4s ease background-color;
+    border: 0;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Lato', sans serif;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+.small_about_us_btn:hover{
+    background-color: var(--dark_grey);
+}
+.small_about_us_list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.small_about_us_list_item_text{
+    color: var(--grey);
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.small_about_us_list_icon{
+    height: 20px;
+    width: 20px;
+}
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--dark_grey);
+}  
