@@ -20,6 +20,9 @@
     font-family: Rubik; 
     src: url(fonts/Rubik-VariableFont_wght.ttf); 
 }
+body{
+    min-width: 1900px;
+}
 .header{
     margin: 0 auto;
     display: flex;
@@ -143,8 +146,7 @@
     color: var(--white);
 }
 .main_phone_number{
-    padding-left: 18px;
-       
+    padding-left: 18px;     
 }
 .main_phone_number_href{
     padding-top: 15px;
@@ -185,7 +187,7 @@
     font-family: 'Rubik', sans serif;
     font-size: 56px;
     font-weight: bold;
-    line-height: 1.1;
+    line-height: 1.1;  
     color: var(--black);
 }
 .small_about_us_description{
@@ -227,7 +229,7 @@
 .small_about_us_list{
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-left: -40px;
 }
 .small_about_us_list_item_text{
     color: var(--grey);
@@ -252,3 +254,68 @@
     border-radius: 10px;
     background: var(--dark_grey);
 }  
+.second_divider{
+    height: 165px;
+}
+.second_divider_img{
+    width: 100%;
+}
+.our_burgers{
+    position: relative;
+    background: url(/BurgerTruck/bg-3.jpg) no-repeat;
+    background-size: 100% auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1000px;
+}
+.our_burgers_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.our_burgers_title{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: var(--black);
+}
+.our_burgers_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--grey);
+}
+.first{
+    font-weight: bold;
+}
+.menu_burger{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 470px;
+}
+.items_menu_burger{
+    display: flex;
+}
+.item_menu_burger{
+ 
+    align-items: left;
+}
+.item_menu_burger_img{
+    height: 70px;
+    width: 70px;
+}
+.name_of_item{
+    font-size: 20px;
+    font-family: 'Lato', sans serif;
+    font-weight: bold;
+    color: var(--dark_grey);
+    border-bottom: 1px solid black;
+}
+.item_text_burger{
+    display: block;
+}
