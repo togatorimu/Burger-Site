@@ -97,6 +97,7 @@ body{
     padding-top: 150px;
     padding-bottom: 157px;
     margin: 0;
+
 }
 .name{  
     font-family: 'PermanentMarker';
@@ -170,16 +171,18 @@ body{
     display: flex;
     padding-bottom: 50px;
 }
-/*.small_about_us_conteiner{
+.small_about_us_conteiner{
     max-width: 1200px;
-}*/
+    align-items: center;
+    display: flex;
+    margin-left: 21%;
+}
 .small_about_us_burger_img{
     height: 588px;
     width: 570px;
 }
 .small_about_us_burger{
-    padding-top: 130px;
-    margin-left: 370px;
+    padding-top: 130px; 
 }
 .small_about_us_text{
     padding-top: 145px;
@@ -236,7 +239,7 @@ body{
 .small_about_us_list{
     display: flex;
     list-style-type: none;
-    margin-left: -40px;
+    padding: 0;
 }
 .small_about_us_list_item_text{
     color: var(--grey);
@@ -273,16 +276,21 @@ body{
     background-size: 100% auto;
     display: block;
     justify-content: center;
-    text-align: center;    
+    text-align: center; 
+    padding-bottom: 50px;
+    padding-top: 50px;   
 }
-/*.our_burgers_conteiner{
+.our_burgers_conteiner{
     max-width: 1200px;
-}*/
+    align-items: center;
+    margin-left: 20%;
+}
 .our_burgers_marker{
     font-family: 'PermanentMarker';
     font-size: 20px;
     font-weight: 400;
     color: var(--dark_accent);
+    padding-top: 20px;
 }
 .our_burgers_title{
     font-family: 'Rubik', sans serif;
@@ -353,23 +361,184 @@ left: 0;
     color: var(--dark_accent);
 }
 .sales{
-    position: relative;
-    display: inline-block;
     background: url(/BurgerTruck/bg-4.jpg) no-repeat;
     background-size: 100% auto;
-    padding-top: 85px;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
-.block_sales{   
+.blocks_sales{   
     max-width: 1200px;
-    margin: 0;
+    align-items: center;
+    margin-left: 20%;
 }
 .yellow_sale_block{ 
-    background: #fc3;  
-    padding-right: 200px;
+    background: url(/BurgerTruck/Yellowbanner.jpg) no-repeat;  
+    background-size: 100% auto;
     display: inline-block;
+    width: 650px;
+    border-radius: 7px;
+    margin-right: 1%;
+    padding-bottom: 30px;
 }
 .red_sale_block{  
-    background: red; 
     display: inline-block;
+    background: url(/BurgerTruck/Redbanner.jpg) no-repeat;  
+    background-size: 100% auto;
+    width: 500px;
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+.sale_marker_yellow{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.sale_name_yellow{
+    font-family: 'Rubik', sans serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--white);
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.sale_description_yellow{
+    font-family: 'Lato', sans serif;
+    font-size: 16px;
+    color: var(--grey);
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.sale_btn_yellow{
+    width: 139px;
+    height: 51px;
+    background-color: var(--white);
+    transition: .2s ease background-color, color;
+    border: 0;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Lato', sans serif;
+    font-size: 16.5px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sale_btn_yellow:hover{
+    background-color: var(--dark_accent);
+    color: var(--white);
+}
+.sale_marker_red{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.sale_name_red{
+    font-family: 'Rubik', sans serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--white);
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.sale_description_red{
+    font-family: 'Lato', sans serif;
+    font-size: 15px;
+    color: var(--white);
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.sale_btn_red{
+    width: 139px;
+    height: 51px;
+    background-color: var(--white);
+    transition: .2s ease background-color, color;
+    border: 0;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Lato', sans serif;
+    font-size: 16.5px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sale_btn_red:hover{
+    background-color: var(--default);
+    color: var(--white);
 } 
+.meat_quality{
+    align-items: center;
+}
+.meat_quality_img_div{
+    float: left;
+    width: 50%;
+}
+.meat_quality_img{
+    width: 100%;
+}
+.meat_quality_text{
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.meat_quality_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.meat_quality_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 0.8;
+    color: var(--black);
+}
+.meat_quality_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #454545;
+    margin-bottom: 25px;
+}
+.meat_quality_small_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--grey);
+    margin-bottom: 25px;
+}
+.meat_quality_nav{
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.meat_quality_nav_item{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--dark_grey);
+    margin-bottom: 18px;  
+}
+.meat_quality_second_small_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--grey);
+    padding-top: 5px;
+}
+.meat_quality_nav_item_icon{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
