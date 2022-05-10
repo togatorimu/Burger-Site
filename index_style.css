@@ -482,6 +482,7 @@ left: 0;
 }
 .meat_quality_img{
     width: 100%;
+    height: 100%;
 }
 .meat_quality_text{
     display: inline-block;
@@ -536,9 +537,110 @@ left: 0;
     line-height: 1.5;
     color: var(--grey);
     padding-top: 5px;
+    margin-bottom: 135px;
 }
 .meat_quality_nav_item_icon{
     height: 20px;
     width: 20px;
     padding-right: 10px;
+}
+.servises{
+    background: url(/BurgerTruck/bg-5.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    padding-bottom: 70px;
+}
+.servises_text{
+    text-align: center;
+    padding-top: 100px;
+}
+.servises_text_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.servises_text_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 0.8;
+    color: var(--black);
+}
+.servises_text_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--dark_grey);
+}
+.franchising{
+    width: 1100px;
+    height: 435px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: var(--white);
+}
+.catering{
+    width: 1100px;
+    height: 435px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.franchising_img_div{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.franchising_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+.franchising_text{
+    display: inline-block;
+    padding-left: 20px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 15px;
+    height: 100%;
+}
+.franchising_text_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.8;
+    color: var(--black);
+}
+.franchising_sup{
+    display: flex;
+    margin-top: 20px;
+}
+.franchisin_img_sup{
+    height: 20px;
+    width: 20px;
+}
+.franchising_sup_text{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-left: 10px;
+}
+.franchising_text_desription{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    color: var(--grey);
+}
+.franchising_text_second_desription{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-top: 20px;
 }
