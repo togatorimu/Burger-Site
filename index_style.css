@@ -7,6 +7,7 @@
     --grey: #4f5047;
     --dark_accent: #e7272d;
     --dark_grey: #282623;
+    --ghost: #ADADAD;
  }
  @font-face {
     font-family: PermanentMarker; 
@@ -25,6 +26,10 @@
 }
 body{
     min-width: 1900px;
+}
+span{
+    display: block; 
+    text-align: left;
 }
 .header{
     margin: 0 auto;
@@ -91,7 +96,7 @@ body{
 }
 .main{
     position: relative;
-    background: url(/BurgerTruck/cover1.jpg) no-repeat;
+    background: url(BurgerTruck/cover1.jpg) no-repeat;
     background-size: 100% auto;
     padding-left: 330px;
     padding-top: 150px;
@@ -166,7 +171,7 @@ body{
 }
 .small_about_us{
     position: relative;
-    background: url(/BurgerTruck/bg-22.jpg) no-repeat;
+    background: url(BurgerTruck/bg-22.jpg) no-repeat;
     background-size: 100% auto;
     display: flex;
     padding-bottom: 50px;
@@ -272,7 +277,7 @@ body{
 }
 .our_burgers{
     position: relative;
-    background: url(/BurgerTruck/bg-3.jpg) no-repeat;
+    background: url(BurgerTruck/bg-3.jpg) no-repeat;
     background-size: 100% auto;
     display: block;
     justify-content: center;
@@ -361,7 +366,7 @@ left: 0;
     color: var(--dark_accent);
 }
 .sales{
-    background: url(/BurgerTruck/bg-4.jpg) no-repeat;
+    background: url(BurgerTruck/bg-4.jpg) no-repeat;
     background-size: 100% auto;
     width: 100%;
     padding-top: 20px;
@@ -373,7 +378,7 @@ left: 0;
     margin-left: 20%;
 }
 .yellow_sale_block{ 
-    background: url(/BurgerTruck/Yellowbanner.jpg) no-repeat;  
+    background: url(BurgerTruck/Yellowbanner.jpg) no-repeat;  
     background-size: 100% auto;
     display: inline-block;
     width: 650px;
@@ -383,7 +388,7 @@ left: 0;
 }
 .red_sale_block{  
     display: inline-block;
-    background: url(/BurgerTruck/Redbanner.jpg) no-repeat;  
+    background: url(BurgerTruck/Redbanner.jpg) no-repeat;  
     background-size: 100% auto;
     width: 500px;
     border-radius: 7px;
@@ -545,10 +550,10 @@ left: 0;
     padding-right: 10px;
 }
 .servises{
-    background: url(/BurgerTruck/bg-5.jpg) no-repeat;
+    background: url(BurgerTruck/bg-5.jpg) no-repeat;
     background-size: 100% auto;
     width: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 .servises_text{
     text-align: center;
@@ -575,24 +580,26 @@ left: 0;
     color: var(--dark_grey);
 }
 .franchising{
-    width: 1100px;
+    width: 1200px;
     height: 435px;
     border-radius: 10px;
     border: 0;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background-color: var(--white);
 }
 .catering{
-    width: 1100px;
+    width: 1200px;
     height: 435px;
     border-radius: 10px;
     border: 0;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: var(--white);
 }
 .franchising_img_div{
     width: 50%;
@@ -607,7 +614,7 @@ left: 0;
 }
 .franchising_text{
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 40px;
     border-radius: 0px 10px 10px 0px;
     margin-top: 15px;
     height: 100%;
@@ -616,12 +623,12 @@ left: 0;
     font-family: 'Rubik', sans serif;
     font-size: 36px;
     font-weight: bold;
-    line-height: 0.8;
+    line-height: 1.3;
     color: var(--black);
 }
 .franchising_sup{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .franchisin_img_sup{
     height: 20px;
@@ -636,11 +643,141 @@ left: 0;
 .franchising_text_desription{
     font-family: 'Lato', sans serif;
     font-size: 20px;
-    color: var(--grey);
+    color: var(--dark-grey);
 }
 .franchising_text_second_desription{
     font-family: 'Lato', sans serif;
     font-size: 17px;
     color: var(--grey);
-    padding-top: 20px;
+    padding-top: 30px;
+}
+.franchising_btn{
+    width: 139px;
+    height: 51px;
+    background-color: var(--default);
+    transition: .2s ease background-color;
+    border: 0;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Lato', sans serif;
+    font-size: 16.5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.franchising_btn:hover{
+    background-color: var(--dark_grey);
+}
+.catering_img_div{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+.catering_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.catering_text{
+    display: inline-block;
+    padding-left: 40px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 15px;
+    height: 100%;
+}
+.catering_text_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: var(--black);
+}
+.catering_text_desription{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    color: var(--grey);
+}
+.catering_sup{
+    display: flex;
+    margin-top: 30px;
+}
+.catering_img_sup{
+    height: 20px;
+    width: 20px;
+}
+.catering_sup_text{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-left: 10px;
+}
+.catering_text_second_desription{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    color: var(--grey);
+    padding-top: 30px;
+}
+.catering_btn{
+    width: 139px;
+    height: 51px;
+    background-color: var(--default);
+    transition: .2s ease background-color;
+    border: 0;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Lato', sans serif;
+    font-size: 16.5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.catering_btn:hover{
+    background-color: var(--dark_grey);
+}
+.video{
+    width: 100%;
+    background: url(Burgertruck/Video.jpg) no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 200px;
+}
+.video_text{
+    padding-left: 19%;
+    padding-top: 200px;
+}
+.video_text_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.video_text_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: var(--white);
+}
+.video_text_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--ghost);
+}
+.href_video{
+    display: flex;
+    margin-top: 50px;
+}
+.icon_video{
+    height: 70px;
+    width: 70px;
+}
+.text_href_video{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    padding-top: 23px;
+    padding-left: 15px;
 }
