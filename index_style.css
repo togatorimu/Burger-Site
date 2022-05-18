@@ -168,6 +168,7 @@ span{
 }
 .first_divider_img{
     width: 100%;
+    display: block;
 }
 .small_about_us{
     position: relative;
@@ -309,61 +310,6 @@ span{
     font-size: 17px;
     font-weight: bold;
     color: var(--grey);
-}
-.first{
-    font-weight: bold;
-}
-.menu_burger{
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center;
-}
-.mySlides{
-    display: none;
-}
-.slider_img{
-    vertical-align: middle;
-    width: 70%;
-}
-.slideshow-container {
-max-width: 300px;
-position: relative;
-margin: auto;
-justify-content: center;
-}
-.prev, .next {
-cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-margin-top: -22px;
-color: var(--default);
-font-weight: bold;
-font-size: 18px;
-user-select: none;
-}
-.next {
-right: 0;
-}
-.prev{
-left: 0;
-}
-.name_burger{
-    font-family: 'Rubik', sans serif;
-    font-size: 30px;
-    color: var(--black);
-    font-weight: bold;
-}
-.description_burger{
-    font-family: 'Lato', sans serif;
-    font-size: 17px;
-    color: var(--grey);
-}
-.price_burger{
-    font-family: 'Rubik', sans serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: var(--dark_accent);
 }
 .sales{
     background: url(BurgerTruck/bg-4.jpg) no-repeat;
@@ -739,7 +685,7 @@ left: 0;
     width: 100%;
     background: url(Burgertruck/Video.jpg) no-repeat;
     background-size: 100% auto;
-    padding-bottom: 200px;
+    padding-bottom: 170px;
 }
 .video_text{
     padding-left: 19%;
@@ -780,4 +726,381 @@ left: 0;
     color: var(--white);
     padding-top: 23px;
     padding-left: 15px;
+}
+.tips{
+    background-color: var(--biscuit);
+}
+.tips_container{
+    width: 1400px;
+    margin-left: 380px;
+    padding-top: 65px;
+    margin-right: auto;
+}
+.tips_value{
+    width: 400px;
+    display: inline-block;  
+}
+.tips_quality{
+    width: 400px;
+    padding-left: 17px;
+    padding-right: 20px;
+    display: inline-block;  
+}
+.tips_fast{
+    width: 400px;
+    display: inline-block;
+}
+.tips_value_img_div{
+    float: left;
+}
+.tips_quality_img_div{
+    float: left;
+}
+.tips_fast_img_div{   
+    float: left;
+}
+.tips_h2{
+    font-size: 24px;
+    font-family: 'Lato', sans serif;
+    color: var(--black);   
+}
+.tips_p{
+    font-size: 17px;
+    font-family: 'Lato', sans serif;
+    color: var(--grey);   
+}
+.tips_text{
+    padding-top: 15px;
+    padding-left: 117px;
+}
+.third_divider_div{
+    width: 100%;
+}
+.third_divider{
+    width: 100%;
+}
+.app{
+    width: 100%;
+    background: url(BurgerTruck/bg-81.jpg) no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 170px;
+}
+.app_container{
+    margin-left: 360px;
+}
+.app_img_div{
+    margin-top: 50px;
+}
+.app_img{
+    width: 570px;
+    height: 605px;
+    float: left;
+}
+.app_text{
+    padding-top: 40px;
+    margin-left: 200px;  
+}
+.app_text_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+}
+.app_text_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 0.4;
+    color: var(--black);
+}
+.app_text_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: var(--dark-grey);
+}
+.app_text_big_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: var(--grey);
+}
+.app_acc{
+    padding-top: 35px;
+}
+.app_track{
+    padding-top: 25px;
+}
+.app_track_img{
+    padding-top: 3px;
+    float: left;
+}
+.app_acc_img{
+    padding-top: 3px;
+    float: left;
+}
+.app_track_name{
+    font-family: 'Lato', sans serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-grey);
+    padding-left: 450px;
+}
+.app_acc_name{
+    font-family: 'Lato', sans serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-grey);
+    padding-left: 450px;
+}
+.app_track_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--ghost);
+    padding-top: 5px;
+    line-height: 1.3;
+    padding-left: 450px;
+}
+.app_acc_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--ghost);
+    padding-top: 5px;
+    line-height: 1.3;
+    padding-left: 450px;
+}
+.app_hrefs{
+    margin-top: 30px;
+    display: flex;
+}
+.app_href_gp{
+    padding-right: 20px;
+}
+.four_divider_img{
+    width: 100%;
+    display: block;
+}
+.block_form{
+    width: 100%;
+    background: url(BurgerTruck/Hire-us.jpg) no-repeat;
+    background-size: 100% auto;
+    padding-top: 70px;
+}
+.form_container{
+    width: 470px;
+    height: 600px;
+    background-color: var(--white);
+    border-radius: 7px;
+    border: 0;  
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.base_work_slider{
+    width: 1120px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 25px;
+    display: flex;
+    overflow: hidden;
+}
+.base_work_slider_line{
+    width: 2240px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.base_work_block_1{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_2{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_3{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_4{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_5{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_6{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_7{
+    
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_block_8{
+    text-align: center;
+    height: 400px;
+    width: 280px;
+}
+.base_work_slider_button_container{
+    margin-left: 400px;
+    width: 1200px;
+    display: flex;
+}
+.base_work_slider_prev{
+    font-size: 30px;
+    background-color: rgb(0, 255, 81, 0);
+    color: var(--default);
+    border: 0;
+    margin-top: -380px;
+    margin-left: -20px;
+}
+.base_work_slider_next{
+    font-size: 30px;
+    background-color: rgb(0, 255, 81, 0);
+    color: var(--default);
+    border: 0;
+    margin-left: 1110px;
+    margin-top: -380px;
+}
+.base_work_img{
+    width: 75%;
+    height: auto;
+}
+.base_work_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.4;
+    color: var(--black);
+}
+.base_work_description{
+    font-family: 'Lato', sans serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--ghost);
+    padding-top: 5px;
+    line-height: 1.3;
+}
+.price{
+    font-family: 'Lato', sans serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark_accent);
+    padding-top: 10px;
+}
+.form_container{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.block_form{
+    padding-bottom: 120px;
+}
+.input_form{
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    padding-right: 150px;
+    padding-left: 12px;
+    border-radius: 500px;
+    border: 0;
+    background-color: var(--biscuit);
+    margin-top: 25px;
+    font-family: 'Lato';
+}
+.form_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+    padding-top: 50px;
+}
+.form_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--black);
+    padding-top: 30px;
+}
+.form_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form_btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    border-radius: 500px;
+    border: 0;
+    background-color: var(--dark_accent);
+    margin-top: 50px;
+    font-family: 'Lato';
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    transition: .4s ease background-color;
+}
+.form_btn:hover{
+    background-color: var(--dark_grey);
+}
+.blog{
+    width: 100%;
+    background: url(BurgerTruck/bg-6.jpg) no-repeat;
+    background-size: 100% auto;
+}
+.blog_text{
+    text-align: center;
+}
+.blog_marker{
+    font-family: 'PermanentMarker';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark_accent);
+    padding-top: 120px;
+}
+.blog_name{
+    font-family: 'Rubik', sans serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 0.75;
+    color: var(--black);
+}
+.blog_description{
+    font-family: 'Lato', sans serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+}
+.article_blocks{
+    margin-top: 30px;
+    width: 1200px;
+}
+.buzzfeed{
+    width: 400px;
+    height: 575px;
 }

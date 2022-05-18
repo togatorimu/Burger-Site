@@ -1,0 +1,46 @@
+.base_work_slider{
+    width: 10vw;
+    height: 10vw;
+    border: 2px  solid black;
+    margin-left: 10vw;
+    display: flex;
+    overflow: hidden;
+}
+.base_work_slider_line{
+    width: 50vw;
+    height: 10vw;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.base_work_block_1{
+    background-color: rgb(251, 9, 9);
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+.base_work_block_2{
+    background-color: rgb(0, 255, 81);
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+.base_work_block_3{
+    background-color: rgb(95, 67, 255);
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+.base_work_block_4{
+    background-color: rgba(2, 104, 12, 0.984);
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+.base_work_block_5{
+    background-color: rgb(245, 0, 147);
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}

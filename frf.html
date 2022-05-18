@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="casdcf.css">
+</head>
+<body>
+    <div class="base_work_slider">
+        <div class="base_work_slider_line">
+            <div class="base_work_block_1">
+            </div>
+            <div class="base_work_block_2">
+            </div>
+            <div class="base_work_block_3">
+            </div>
+            <div class="base_work_block_4">
+            </div>
+            <div class="base_work_block_5">
+            </div>
+        </div>
+    </div>
+    <button class="base_work_slider_prev">Prev</button> 
+    <button class="base_work_slider_next">Next</button>
+    <script>
+    let offset = 0;
+        const sliderLine = document.querySelector('.base_work_slider_line');
+        
+        document.querySelector('.base_work_slider_next').addEventListener('click', function (){
+            offset = offset + 10;
+            if (offset > 40){
+                offset = 0;
+            }
+            sliderLine.style.left = -offset + 'vw';
+        });
+        document.querySelector('.base_work_slider_prev').addEventListener('click', function (){
+            offset = offset - 10;
+            if (offset < 0){
+                offset = 40;
+            }
+            sliderLine.style.left = -offset + 'vw';
+        });</script>
+</body>
+</html>
